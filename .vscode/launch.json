@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: loadbalancer test",
+            "type": "python",
+            "request": "launch",
+            "module": "pytest",
+            "args": [
+                "--no-cov"
+            ],
+            "pythonPath": "${workspaceFolder}/venv/bin",
+            "program": "${workspaceFolder}/tests/test_loadbalancer.py"
+        },
+}
