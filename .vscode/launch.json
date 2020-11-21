@@ -9,7 +9,7 @@
             "args": [
                 "--no-cov"
             ],
-            "pythonPath": "${workspaceFolder}/venv/bin",
+            "python": "${workspaceFolder}/venv/bin",
             "program": "${workspaceFolder}/tests/test_loadbalancer.py"
         },
 }
